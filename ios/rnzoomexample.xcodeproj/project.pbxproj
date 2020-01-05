@@ -23,11 +23,12 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		AEAC19EF229E162B00EFF2FA /* ZoomAuthenticationHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAC19C0229E15FB00EFF2FA /* ZoomAuthenticationHybrid.framework */; };
-		AEAC19F3229E164F00EFF2FA /* ZoomAuthenticationHybrid.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEAC19C0229E15FB00EFF2FA /* ZoomAuthenticationHybrid.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE9D6FC823C170FF00B12F1C /* libRNReactNativeZoomSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAC1A2A229E18F300EFF2FA /* libRNReactNativeZoomSdk.a */; };
+		AE9D6FC923C1712500B12F1C /* ZoomAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9D6FBA23C1620800B12F1C /* ZoomAuthentication.framework */; };
+		AE9D6FCA23C1712500B12F1C /* ZoomAuthentication.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE9D6FBA23C1620800B12F1C /* ZoomAuthentication.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AEAC1A59229E1A2D00EFF2FA /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAC1A58229E1A2D00EFF2FA /* Dummy.swift */; };
-		EB43F54DA15047C2AA98BCA0 /* libRNReactNativeZoomSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 889193BC8F6143CDAACABDF6 /* libRNReactNativeZoomSdk.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
+		F13B643C617D46E983EC1176 /* libRNImageStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED38DB433DB4D9AB89FE806 /* libRNImageStore.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -262,6 +263,13 @@
 			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
 			remoteInfo = RCTBlob;
 		};
+		AE9D700123C1878500B12F1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19AB6BAD35634AEDAD98DD55 /* RNImageStore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNImageStore;
+		};
 		AEAC19E6229E15FB00EFF2FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
@@ -306,7 +314,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AEAC19F3229E164F00EFF2FA /* ZoomAuthenticationHybrid.framework in CopyFiles */,
+				AE9D6FCA23C1712500B12F1C /* ZoomAuthentication.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,13 +339,15 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rnzoomexample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rnzoomexample/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		19AB6BAD35634AEDAD98DD55 /* RNImageStore.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNImageStore.xcodeproj; path = "../node_modules/react-native-image-store/ios/RNImageStore.xcodeproj"; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		889193BC8F6143CDAACABDF6 /* libRNReactNativeZoomSdk.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNReactNativeZoomSdk.a; sourceTree = "<group>"; };
+		8ED38DB433DB4D9AB89FE806 /* libRNImageStore.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNImageStore.a; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		AEAC19C0229E15FB00EFF2FA /* ZoomAuthenticationHybrid.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZoomAuthenticationHybrid.framework; sourceTree = "<group>"; };
+		AE9D6FBA23C1620800B12F1C /* ZoomAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZoomAuthentication.framework; sourceTree = "<group>"; };
 		AEAC1A57229E1A2C00EFF2FA /* rnzoomexample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rnzoomexample-Bridging-Header.h"; sourceTree = "<group>"; };
 		AEAC1A58229E1A2D00EFF2FA /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 		C1EE1150452D4AD99C06DD0C /* RNReactNativeZoomSdk.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNReactNativeZoomSdk.xcodeproj; path = "../node_modules/react-native-facetec-zoom/ios/RNReactNativeZoomSdk.xcodeproj"; sourceTree = "<group>"; };
@@ -351,8 +361,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */,
-				AEAC19EF229E162B00EFF2FA /* ZoomAuthenticationHybrid.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
+				AE9D6FC823C170FF00B12F1C /* libRNReactNativeZoomSdk.a in Frameworks */,
 				11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -362,9 +372,10 @@
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
+				AE9D6FC923C1712500B12F1C /* ZoomAuthentication.framework in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				EB43F54DA15047C2AA98BCA0 /* libRNReactNativeZoomSdk.a in Frameworks */,
+				F13B643C617D46E983EC1176 /* libRNImageStore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,7 +464,7 @@
 		13B07FAE1A68108700A75B9A /* rnzoomexample */ = {
 			isa = PBXGroup;
 			children = (
-				AEAC19C0229E15FB00EFF2FA /* ZoomAuthenticationHybrid.framework */,
+				AE9D6FBA23C1620800B12F1C /* ZoomAuthentication.framework */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -534,6 +545,7 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				C1EE1150452D4AD99C06DD0C /* RNReactNativeZoomSdk.xcodeproj */,
+				19AB6BAD35634AEDAD98DD55 /* RNImageStore.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -579,10 +591,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		AE9D6FFE23C1878500B12F1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE9D700223C1878500B12F1C /* libRNImageStore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		AEAC1A00229E18F100EFF2FA /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
 				889193BC8F6143CDAACABDF6 /* libRNReactNativeZoomSdk.a */,
+				8ED38DB433DB4D9AB89FE806 /* libRNImageStore.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -628,7 +649,7 @@
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 3C949BWG27;
+						DevelopmentTeam = 94V7783F74;
 						LastSwiftMigration = 1020;
 					};
 				};
@@ -693,6 +714,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = AE9D6FFE23C1878500B12F1C /* Products */;
+					ProjectRef = 19AB6BAD35634AEDAD98DD55 /* RNImageStore.xcodeproj */;
 				},
 				{
 					ProductGroup = AEAC1A26229E18F200EFF2FA /* Products */;
@@ -938,6 +963,13 @@
 			remoteRef = ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		AE9D700223C1878500B12F1C /* libRNImageStore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNImageStore.a;
+			remoteRef = AE9D700123C1878500B12F1C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		AEAC19E7229E15FB00EFF2FA /* libjsi.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1000,7 +1032,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		AEAC1A56229E19D300EFF2FA /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1018,7 +1050,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZoomAuthenticationHybrid.framework/strip-unused-architectures-from-target.sh\"\n";
+			shellScript = "#bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZoomAuthenticationHybrid.framework/strip-unused-architectures-from-target.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1055,7 +1087,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 3C949BWG27;
+				DEVELOPMENT_TEAM = 94V7783F74;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1063,11 +1095,13 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-facetec-zoom/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-store/ios",
 				);
 				INFOPLIST_FILE = rnzoomexample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/rnzoomexample\"",
 					"\"$(SRCROOT)/rnzoomexample\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1075,7 +1109,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.tradle.zoomsdkexample;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facetec.ZoomAuthentication-Sample-App";
 				PRODUCT_NAME = rnzoomexample;
 				SWIFT_OBJC_BRIDGING_HEADER = "rnzoomexample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1098,11 +1132,13 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-facetec-zoom/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-store/ios",
 				);
 				INFOPLIST_FILE = rnzoomexample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/rnzoomexample\"",
 					"\"$(SRCROOT)/rnzoomexample\"",
 				);
 				OTHER_LDFLAGS = (

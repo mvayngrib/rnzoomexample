@@ -1,0 +1,16 @@
+{
+  "status": "UserProcessedSuccessfully",
+  "faceMetrics": {
+    "facemap": "rct-image-store://0",
+    "auditTrail": [
+      "rct-image-store://1",
+      "rct-image-store://2",
+      "rct-image-store://3",
+      "rct-image-store://4",
+      "rct-image-store://5",
+      "rct-image-store://6"
+    ]
+  },
+  "countOfZoomSessionsPerformed": 1,
+  "sessionId": "CB11929D-CB73-4742-9973-B38CD048D4AB"
+}
