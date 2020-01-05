@@ -10,7 +10,7 @@ import {
 } from "react-native";
 
 import Zoom from "react-native-facetec-zoom";
-import ZOOM_APP_TOKEN from "./app-token";
+import ZOOM_APP_TOKEN from "./license-key";
 
 Zoom.preload();
 

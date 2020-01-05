@@ -57,3 +57,4 @@ buck-out/
 
 ZoomAuthenticationHybrid.framework
 app-token.json
+license-key.json
