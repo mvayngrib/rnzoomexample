@@ -25,7 +25,7 @@
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		AE9D6FC823C170FF00B12F1C /* libRNReactNativeZoomSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAC1A2A229E18F300EFF2FA /* libRNReactNativeZoomSdk.a */; };
 		AE9D6FC923C1712500B12F1C /* ZoomAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9D6FBA23C1620800B12F1C /* ZoomAuthentication.framework */; };
-		AE9D6FCA23C1712500B12F1C /* ZoomAuthentication.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE9D6FBA23C1620800B12F1C /* ZoomAuthentication.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE9D6FCA23C1712500B12F1C /* ZoomAuthentication.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = AE9D6FBA23C1620800B12F1C /* ZoomAuthentication.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AEAC1A59229E1A2D00EFF2FA /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAC1A58229E1A2D00EFF2FA /* Dummy.swift */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		F13B643C617D46E983EC1176 /* libRNImageStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED38DB433DB4D9AB89FE806 /* libRNImageStore.a */; };
@@ -308,14 +308,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AEAC19F2229E164A00EFF2FA /* CopyFiles */ = {
+		AEAC19F2229E164A00EFF2FA /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AE9D6FCA23C1712500B12F1C /* ZoomAuthentication.framework in CopyFiles */,
+				AE9D6FCA23C1712500B12F1C /* ZoomAuthentication.framework in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -626,7 +627,7 @@
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
-				AEAC19F2229E164A00EFF2FA /* CopyFiles */,
+				AEAC19F2229E164A00EFF2FA /* Copy Files */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				AEAC1A56229E19D300EFF2FA /* Run Script */,
 			);
