@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "16.8.3",
     "react-native": "0.59.9",
-    "react-native-facetec-zoom": "tradle/react-native-facetec-zoom#mv/sdk8.x",
+    "react-native-facetec-zoom": "https://github.com/tradle/react-native-facetec-zoom#mv/sdk9.x",
     "react-native-image-store": "^1.0.0"
   },
   "devDependencies": {
